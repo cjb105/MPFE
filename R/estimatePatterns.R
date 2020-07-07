@@ -41,7 +41,7 @@ estimatePatterns <- function(patternCounts,
     } else {
         columns <- column
     }
-    if (any(columns < 1 || columns > nColumns)) {
+    if (any(columns < 1) || any(columns > nColumns)) {
         stop('Column indices must be between 1 and ', nColumns, '\n')
     }
 
