@@ -15,7 +15,8 @@
                    eta=0,
                    column=NULL,
                    fast=TRUE,
-                   steps=20000)
+                   steps=20000,
+                   reltol=1e-12)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -32,20 +33,24 @@
     rate across all sites.
   }
   \item{column}{
-    index of the column of `patternCounts' to process, an integer value from 1
-    to the number of pattern counts columns in `patternCounts'.  If NULL, defaults
-    to all columns.
+    a vector that specifies the indices of the columns of `patternCounts' to process. 
+    Its entries are integer values from 1
+    to the number of pattern counts columns in `patternCounts'.  
+    If NULL, defaults to all columns.
   }
   \item{fast}{
     logical, if TRUE, fast version implemented (default).
   }
   \item{steps}{
     number of steps for the optimiser, passed to \code{\link{constrOptim}}.
+    If NULL, defaults to 20000 steps.
+  }
+  \item{reltol}{
+    relative tolerance for the optimiser, passed to \code{\link{constrOptim}}.
+    If NULL, defaults to 1e-12.
   }
 }
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
+
 \value{
  The function returns a list of data frames.
 
@@ -66,21 +71,15 @@ The data frames contain the following columns:
     indicates whether the patterns are real or spurious (logical)
   }
 }
-\references{
-%% ~put references to the literature/web site here ~
-}
+
 \author{
   Peijie Lin, Sylvain Foret, Conrad Burden
 }
-\note{
-%%  ~~further notes~~
-}
+
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
-\seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
-}
+
 \examples{
   data(patternsExample)
   estimatePatterns(patternsExample, 

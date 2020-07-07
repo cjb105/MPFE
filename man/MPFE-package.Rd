@@ -16,8 +16,6 @@
   \tabular{ll}{
     Package: \tab MPFE\cr
     Type: \tab Package\cr
-    Version: \tab 0.99\cr
-    Date: \tab 2014-06-12\cr
     License: \tab GPL(>=3)\cr
   }
   The main component of this package is the function \code{\link{estimatePatterns}}, 
@@ -32,8 +30,6 @@
   Maintainer: conrad.burden@anu.edu.au
 }
 
-\references{
-}
 
 \keyword{
   amplicon,
@@ -42,8 +38,6 @@
   methylation
 }
 
-\seealso{
-}
 
 \examples{
   data(patternsExample)

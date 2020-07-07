@@ -1,9 +1,18 @@
 Package: MPFE
 Type: Package
-Title: Estimation of the amplicon methylation pattern distribution from bisulphite sequencing data.
-Version: 0.99.0
-Date: 2014-05-02
+Title: Estimation of the amplicon methylation pattern distribution from
+        bisulphite sequencing data
+Version: 1.23.0
+Date: 2014-11-28
 Author: Peijie Lin, Sylvain Foret, Conrad Burden
+biocViews: HighThroughputSequencingData, DNAMethylation, MethylSeq
 Maintainer: Conrad Burden <conrad.burden@anu.edu.au>
 Description: Estimate distribution of methylation patterns from a table of counts from a bisulphite sequencing experiment given a non-conversion rate and read error rate.
 License: GPL (>= 3)
+git_url: https://git.bioconductor.org/packages/MPFE
+git_branch: master
+git_last_commit: c3fa9dd
+git_last_commit_date: 2019-10-29
+Date/Publication: 2019-10-29
+NeedsCompilation: no
+Packaged: 2019-10-30 00:47:35 UTC; biocbuild
