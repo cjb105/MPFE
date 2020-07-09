@@ -21,7 +21,7 @@
 \date{\today}
 \maketitle
 
-Many of the known mechanisms driving gene regulation fall into the category of epigenomic modifications.
+Many of the known mechanisms driving gene regulation fall into the category of epigenomic modifications
 DNA methylation is a common epigenomic modification, in which a cytosine (C) in the genomic DNA sequence can be altered by the addition of a methyl group.
 Methylation patterns can be are detected by treating DNA with bisulphite, which converts unmethylated cytosines to uracils while leaving methylated cytosines intact.
 This can be carried out at the whole genome level (whole-genome bisulfite sequencing) or at specific loci (PCR amplicons, capture or reduced representation bisulfite sequencing).
