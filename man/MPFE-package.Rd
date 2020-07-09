@@ -9,7 +9,7 @@
 \description{
   Estimate distribution of methylation patterns from a table of counts from a
   bisulphite sequencing experiment given a non-conversion rate and sequencing
-  error rate
+  error rate.
 }
 
 \details{
