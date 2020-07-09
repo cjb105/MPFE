@@ -1,4 +1,4 @@
-### R code from vignette source 'MPFE.Rnw'
+### R code from vignette source 'MPFE.Rnw'.
 
 ###################################################
 ### code chunk number 1: MPFE.Rnw:52-56
